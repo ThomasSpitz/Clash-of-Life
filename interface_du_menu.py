@@ -21,7 +21,6 @@ options = {
     "Grand": (1024, 768)
 }
 
-
 # couleurs
 WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
