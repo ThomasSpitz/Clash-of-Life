@@ -40,8 +40,8 @@ Rose = (255, 105, 180)
 font = pygame.font.SysFont("Arial", 40)
 button_font = pygame.font.SysFont("Arial", 30)
 #La Musique
-pygame.mixer.music.load('Audio\\musique_menu.mp3')
-son1 = pygame.mixer.Sound('Audio\\sus.mp3')
+pygame.mixer.music.load('Audio/musique_menu.mp3')
+son1 = pygame.mixer.Sound('Audio/sus.mp3')
 # Jouer la musique
 pygame.mixer.music.play(-1)
 
@@ -246,7 +246,7 @@ def main_menu():
     show_error = False  # Variable pour gérer l'affichage du message d'erreur
     entered_text='1400' #initialisation de la taille du jeu
     # Charger l'image de fond
-    background_image = pygame.image.load("images\\background.png")  # Chemin vers l'image
+    background_image = pygame.image.load("images/background.png")  # Chemin vers l'image
     background_image = pygame.transform.scale(background_image, (L, H))  # Adapter à la taille de l'écran
 
     while running:
@@ -325,7 +325,7 @@ def main_menu():
 def Menu_deck1():
     running = True
      # Charger l'image de fond
-    background_image = pygame.image.load("images\\background.png")  # Chemin vers l'image
+    background_image = pygame.image.load("images/background.png")  # Chemin vers l'image
     background_image = pygame.transform.scale(background_image, (L, H))  # Adapter à la taille de l'écran
 
     while running:
@@ -479,7 +479,7 @@ def Menu_deck2():
     selected_ships = []  # Liste pour garder les vaisseaux sélectionnés
     max_selection = 5  # Limite de sélection à 5 vaisseaux
      # Charger l'image de fond
-    background_image = pygame.image.load("images\\background.png")  # Chemin vers l'image
+    background_image = pygame.image.load("images/background.png")  # Chemin vers l'image
     background_image = pygame.transform.scale(background_image, (L, H))  # Adapter à la taille de l'écran
 
     while running:
@@ -596,7 +596,7 @@ def Menu_param():
     running = True
 
     # Charger l'image de fond
-    background_image = pygame.image.load("images\\background.png")  # Chemin vers l'image
+    background_image = pygame.image.load("images/background.png")  # Chemin vers l'image
     background_image = pygame.transform.scale(background_image, (L, H))  # Adapter à la taille de l'écran
 
     while running:
